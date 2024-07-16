@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-16T12:29:11Z" name="Test Suite for Buildout" finished-at="2024-07-16T12:30:15Z" duration-ms="64043">
+    <groups>
+    </groups>
+    <test started-at="2024-07-16T12:29:11Z" name="Test Cases for Buildout" finished-at="2024-07-16T12:30:15Z" duration-ms="64043">
+      <class name="demo.TestCases">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@3fb6cf60]" started-at="2024-07-16T17:59:11Z" name="startBrowser" finished-at="2024-07-16T17:59:14Z" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method signature="testCase01()[pri:0, instance:demo.TestCases@3fb6cf60]" started-at="2024-07-16T17:59:14Z" name="testCase01" description="Search Washing Machine. Sort by popularity and print the count of items with rating less than or equal to 4 stars" finished-at="2024-07-16T17:59:33Z" duration-ms="19373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method signature="testCase02()[pri:1, instance:demo.TestCases@3fb6cf60]" started-at="2024-07-16T17:59:33Z" name="testCase02" description="Search &quot;iPhone&quot;, print the Titles and discount % of items with more than 17% discount" finished-at="2024-07-16T17:59:53Z" duration-ms="19861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+        <test-method signature="testCase03()[pri:2, instance:demo.TestCases@3fb6cf60]" started-at="2024-07-16T17:59:53Z" name="testCase03" description="Search &quot;Coffee Mug&quot;, select 4 stars and above, and print the Title and image URL of the 5 items with highest number of reviews" finished-at="2024-07-16T18:00:14Z" duration-ms="21044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@3fb6cf60]" started-at="2024-07-16T18:00:14Z" name="endTest" finished-at="2024-07-16T18:00:15Z" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- demo.TestCases -->
+    </test> <!-- Test Cases for Buildout -->
+  </suite> <!-- Test Suite for Buildout -->
+</testng-results>
